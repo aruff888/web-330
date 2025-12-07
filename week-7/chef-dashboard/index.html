@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <!--
+<html lang="en">
+<head>
+   <!--
     Pragmatic JavaScript
     Chapter 3
     Programming Assignment
 
-    Author:
-    Date:
-    Filename:
+    Author: Amanda Ruff
+    Date: 12/07/25
+    Filename: index.html
   -->
-    <title>Chef Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <div id="error" hidden></div>
-    <div id="chef1" class="chef-container"></div>
-    <div id="chef2" class="chef-container"></div>
-    <div id="chef3" class="chef-container"></div>
-    <script src="script.js"></script>
-  </body>
+  <meta charset="UTF-8">
+  <title>Chef Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Chef Dashboard</h1>
+
+  <div class="chef-container">
+    <section id="chef1" class="chef-card">
+      <h2>Chef 1</h2>
+      <p class="output"></p>
+    </section>
+
+    <section id="chef2" class="chef-card">
+      <h2>Chef 2</h2>
+      <p class="output"></p>
+    </section>
+
+    <section id="chef3" class="chef-card">
+      <h2>Chef 3</h2>
+      <p class="output"></p>
+    </section>
+  </div>
+
+  <script src="chefs.js"></script>
+
+</body>
 </html>
