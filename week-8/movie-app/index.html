@@ -6,26 +6,36 @@
       Chapter 4
       Programming Assignment
 
-      Author:
-      Date:
-      Filename:
+      Author: Amanda Ruff
+      Date: 12/14/25
+      Filename: index.html
     -->
+    <meta charset="UTF-8" />
+    <title>Movie Finder</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <div class="form-container">
       <form id="movie-form">
-        <input type="text" id="title-input" placeholder="Enter movie title" />
+        <input
+          type="text"
+          id="title-input"
+          placeholder="Enter movie title"
+          required
+        />
         <button type="submit">Search</button>
       </form>
+
       <div id="movie-info">
         <h2 id="movie-title"></h2>
         <p id="movie-director"></p>
         <p id="movie-year"></p>
         <p id="movie-synopsis"></p>
       </div>
+
       <p id="error-message"></p>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
